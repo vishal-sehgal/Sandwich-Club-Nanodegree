@@ -130,7 +130,8 @@
 
     <string name="not_avail">Not available</string>
     <string name="demo_desc">Blah Blah Blah Blah Blah Blah Blah!!!!!!</string>
-    <string name="github_repo_url">https://github.com/CoderVishalSehgal/sandwich-club-nanodegree</string>
+    <string name="github_repo_url">https://github.com/CoderVishalSehgal/Sandwich-Club-Nanodegree</string>
     <string name="github">Github</string>
+    <string name="browser_not_found">Browser not found!</string>
 
 </resources>

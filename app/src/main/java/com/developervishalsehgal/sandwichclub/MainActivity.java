@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.developervishalsehgal.sandwichclub.adapter.CustomListAdapter;
 
@@ -77,8 +78,9 @@ public class MainActivity extends AppCompatActivity {
                     Intent i = new Intent(Intent.ACTION_VIEW);
                     i.setData(Uri.parse(url));
                     startActivity(i);
-                }catch (Exception e){
+                } catch (Exception e) {
 
+                    Toast.makeText(this, getResources().getString(R.string.browser_not_found), Toast.LENGTH_LONG).show();
                 }
 
                 break;
