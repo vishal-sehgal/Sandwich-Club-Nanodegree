@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/anim_nothing.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi-v4/splashscreen_progressbar.xml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/app_logo.png" charset="windows-1251" />
+  </component>
+</project>

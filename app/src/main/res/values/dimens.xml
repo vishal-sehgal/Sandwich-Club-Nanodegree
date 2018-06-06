@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="padding_top_scrollview">220dp</dimen>
+
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_bottom">30dp</dimen>
+
+    <dimen name="list_item_title">32sp</dimen>
+    <dimen name="list_item_title_margin_top">180dp</dimen>
+
+
+    <dimen name="title_size">32sp</dimen>
+    <dimen name="body_size">16sp</dimen>
+
+    <dimen name="margin_progress_bar">-6dp</dimen>
+
+
+    <dimen name="splashscreen_logo">150dp</dimen>
+    <dimen name="splashscreen_progressbar">6dp</dimen>
+
+</resources>
