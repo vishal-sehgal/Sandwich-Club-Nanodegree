@@ -226,8 +226,11 @@ public class DetailActivity extends AppCompatActivity implements Animation.Anima
     @Override
     public void onBackPressed() {
 
-        if (enableBackBtn)
+        if (enableBackBtn) {
             alsoKnowAsBox.startAnimation(slideOutDown);
+            enableBackBtn = false;
+        }
+
 
     }
 }
