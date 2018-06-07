@@ -19,8 +19,13 @@
 
     <dimen name="margin_progress_bar">-6dp</dimen>
 
+    <dimen name="padding_small">4dp</dimen>
+
 
     <dimen name="splashscreen_logo">150dp</dimen>
     <dimen name="splashscreen_progressbar">6dp</dimen>
+
+
+    <dimen name="appbar_logo">30dp</dimen>
 
 </resources>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.udacity.sandwichclub.DetailActivity">
+    tools:context=".DetailActivity">
 
     <ImageView
         android:id="@+id/image_iv"

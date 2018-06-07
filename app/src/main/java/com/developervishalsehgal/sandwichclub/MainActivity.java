@@ -1,9 +1,8 @@
 package com.developervishalsehgal.sandwichclub;
 
+
 import android.app.ActivityOptions;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -28,13 +27,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Making a drawable of 80x80.
-        Drawable drawable = getResources().getDrawable(R.mipmap.ic_launcher_round);
-        Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
-        Drawable finalDrawable = new BitmapDrawable(getResources(), Bitmap.createScaledBitmap(bitmap, 80, 80, true));
+        Drawable drawables = getResources().getDrawable(R.drawable.app_logo);
+        drawables.setBounds(0, 0, 50, 50);
+//        Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
+//        Drawable finalDrawable = new BitmapDrawable(getResources(), Bitmap.createScaledBitmap(bitmap, 80, 80, true));
 
-        Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setIcon(finalDrawable);// Setting that drawable to toolbar.
+//        Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(true);
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        getSupportActionBar().setIcon(drawables);// Setting that drawable to toolbar.
 
 
         String[] sandwiches = getResources().getStringArray(R.array.sandwich_details);
