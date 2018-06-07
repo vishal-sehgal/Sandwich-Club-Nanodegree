@@ -12,7 +12,9 @@ You can try the sample application here
 <p align="center">
 <img src="https://user-images.githubusercontent.com/20669217/41086891-f1f75ca8-6a58-11e8-9398-3d6ff531414e.png" width="50%"><br/>
 </p>
-</a>
+</a><br/>
+
+<img src="https://drive.google.com/uc?export=download&id=1maR-Uypw6wBYOva-NgYZKZGZ82Z2emmZ" width="360" height="640"><br/>
 
 # Home Screen
 <img src="https://drive.google.com/uc?export=download&id=11oIRhhMzizBaF6udEyuy2RsSQWVzWEpA" width="360" height="640"><br/>
