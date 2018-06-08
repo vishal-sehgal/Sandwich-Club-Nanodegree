@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -26,17 +27,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Making a drawable of 80x80.
-        Drawable drawables = getResources().getDrawable(R.drawable.app_logo);
-        drawables.setBounds(0, 0, 50, 50);
-//        Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
-//        Drawable finalDrawable = new BitmapDrawable(getResources(), Bitmap.createScaledBitmap(bitmap, 80, 80, true));
-
-//        Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(true);
-//        getSupportActionBar().setDisplayShowHomeEnabled(true);
-//        getSupportActionBar().setIcon(drawables);// Setting that drawable to toolbar.
-
-
+        EditText editText = null;
+        editText.getText().toString().trim();
         String[] sandwiches = getResources().getStringArray(R.array.sandwich_details);
 
         CustomListAdapter adapter = new CustomListAdapter(this, sandwiches);
