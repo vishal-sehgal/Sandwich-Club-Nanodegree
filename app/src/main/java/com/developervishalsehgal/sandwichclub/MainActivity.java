@@ -3,7 +3,6 @@ package com.developervishalsehgal.sandwichclub;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,13 +10,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.developervishalsehgal.sandwichclub.adapter.CustomListAdapter;
-
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText editText = null;
-        editText.getText().toString().trim();
+        android.support.v7.widget.Toolbar toolbar = findViewById(R.id.appbar);
+        setSupportActionBar(toolbar);
+
         String[] sandwiches = getResources().getStringArray(R.array.sandwich_details);
 
         CustomListAdapter adapter = new CustomListAdapter(this, sandwiches);
-
 
         // Simplification: Using a ListView instead of a RecyclerView
         ListView listView = findViewById(R.id.sandwiches_listview);
