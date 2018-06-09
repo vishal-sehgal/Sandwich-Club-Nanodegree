@@ -35,3 +35,13 @@ You can try the sample application here
 <img src="https://user-images.githubusercontent.com/20669217/41087119-76391902-6a59-11e8-833d-f26b79fc7bb8.png" width="50" height="50"><br/>
 </p>
 </a>
+
+
+## License
+Copyright 2018 Vishal Sehgal
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
